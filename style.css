@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 {
+    width: 70%;
+    height: 500px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 0.5fr 1fr 2fr 1fr;
+    grid-template-areas: 'a1 a2 a2 a3 a4'
+                         'a5 a2 a2 a3 a6'
+                         'a7 a8 a9 a3 a10'
+                         'a11 a11 a11 a3 a12';
+    ;
+}
+
+.item1 {
+    grid-area: a1;
+    background-color: brown;
+}
+
+.item2 {
+    grid-area: a2;
+    background-color: violet;
+}
+
+.item3 {
+    grid-area: a3;
+    background-color: rgb(255, 81, 0);
+}
+
+.item4 {
+    grid-area: a4;
+    background-color: yellow;
+}
+
+.item5 {
+    grid-area: a5;
+    background-color: green;
+}
+
+.item6 {
+    grid-area: a6;
+    background-color: blue;
+}
+
+.item7 {
+    grid-area: a7;
+    background-color: chartreuse;
+}
+
+.item8 {
+    grid-area: a8;
+    background-color: rgb(3, 99, 3);
+}
+
+.item9 {
+    grid-area: a9;
+    background-color: aqua;
+}
+
+.item10 {
+    grid-area: a10;
+    background-color: rgb(66, 215, 66);
+}
+
+.item11 {
+    grid-area: a11;
+    background-color: blueviolet;
+}
+
+.item12 {
+    grid-area: a12;
+    background-color: red;
+}
